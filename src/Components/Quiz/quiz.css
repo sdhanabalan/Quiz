@@ -1,0 +1,54 @@
+.container{
+    width: 640px;
+    margin: auto;
+    margin-top: 80px;
+    background: white;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    padding: 40px 50px;
+}
+.container h2{
+    font-size: 27px;
+    font-weight: 500;
+}
+.container ul li{
+    border: solid 1px #686868;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 20px;
+    height: 50px;
+}
+
+.container button{
+    margin: auto;
+    width: 250px;
+    height: 45px;
+    background: #442f9a;
+    color:#fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 27px;
+    font-weight: 500;
+}
+.indexNo{
+    font-size: 18px;
+    margin: auto;
+}
+.correct{
+    background: #fff;
+    border-color: #00d397 !important;
+    color:#00d397
+}
+.wrong{
+    background: #fff;
+    border-color: #ff4141 !important;
+    color: #ff4141;
+}
